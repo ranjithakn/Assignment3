@@ -16,13 +16,12 @@ Set the condition of the do while loop to end once the coinFlip becomes “Tails”.
 
 let coinFlip,flip;
 //let input = prompt("Enter how many times you want to flip the coin");
-//document.writeln("CoinFlip game");
-do {
-    document.writeln("CoinFlip game");
+document.writeln("CoinFlip game");
+do {//ocument.writeln("CoinFlip game");
     //const rndInt = Math.floor(Math.random() * 10) + 0;
     let rndInt = Math.floor(Math.random() * 10); // returns a random integer between 0 and 9 
     coinFlip = rndInt;
-    document.writeln(coinFlip);
+    //document.writeln(coinFlip);
     if (coinFlip === 0) {
         alert("Its an Head");
         flip = "heads";

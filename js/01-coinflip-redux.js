@@ -18,13 +18,13 @@ If it’s 0, write out “Heads” into the console window.If it’s 1, write out “Tails
 
 let coinFlip;
 let input = prompt("Enter how many times you want to flip the coin");
-
+document.writeln("CoinFlip game");
 for (let i = 0; i < input; i++) {
-    document.writeln("CoinFlip game");
+    
     //const rndInt = Math.floor(Math.random() * 10) + 0;
     let rndInt = Math.floor(Math.random() * 10); // returns a random integer between 0 and 9 
     coinFlip = rndInt;
-    document.writeln(coinFlip);
+    //document.writeln(coinFlip);
     if (coinFlip === 0) {
         alert("Its an Head");
         break;
